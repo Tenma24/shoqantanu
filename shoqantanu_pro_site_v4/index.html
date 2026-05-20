@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Шоқантану — Шоқан Уәлихановтың өмірі, Ыстықкөл күнделігі, экспедиция маршруты және ғылыми мұрасы туралы интерактивті сайт." />
+  <title>Шоқантану | Шоқан Уәлиханов және Ыстықкөл күнделігі</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="reading-progress" id="readingProgress"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Негізгі мәзір">
+      <a class="brand" href="#top" aria-label="Шоқантану басты беті">
+        <span class="brand-mark">Ш</span>
+        <span class="brand-text">Шоқантану</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">Шоқан</a>
+        <a href="#diary">Күнделік</a>
+        <a href="#route">Карта</a>
+        <a href="#kyrgyz">Қырғыздар</a>
+        <a href="#digital">Фото</a>
+        <a href="#digital">Instagram</a>
+        <a href="#quiz">Викторина</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Түсті ауыстыру">☾</button>
+    </nav>
+
+    <section class="hero section-grid">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Ұлы дала зерттеушісі</p>
+        <h1>Шоқантану</h1>
+        <p class="hero-lead">Бұл сайтта Шоқан Шыңғысұлы Уәлиханов туралы ақпарат, «Ыстықкөл күнделігі» жазылу тарихы, жүріп өткен жерлері және қырғыз халқы туралы жазбалары жинақталған.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#diary">Күнделікті оқу</a>
+          <a class="btn ghost" href="https://youtu.be/8PxLUR0EkmE" target="_blank" rel="noopener">YouTube бейне</a>
+        </div>
+        <div class="hero-stats" aria-label="Негізгі деректер">
+          <div><strong>1835</strong><span>туған жылы</span></div>
+          <div><strong>1856</strong><span>Ыстықкөл сапары</span></div>
+          <div><strong>30</strong><span>жылдық ғұмыр</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="portrait-card">
+          <img src="assets/img/shoqan-walikhanov-real.png" alt="Шоқан Уәлихановтың портреті" />
+          <div class="portrait-caption">
+            <span>Ғалым • Этнограф • Географ</span>
+            <strong>Мұхаммед Қанафия</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section container" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Таныстыру</p>
+        <h2>Шоқан Уәлиханов туралы</h2>
+        <p>Шоқан Шыңғысұлы Уәлиханов — қазақтың ұлы ғалымы, шығыстанушы, тарихшы, фольклоршы, этнограф, географ және ағартушы.</p>
+      </div>
+      <div class="about-layout">
+        <article class="glass-card reveal">
+          <h3>Қысқаша өмірбаян</h3>
+          <p>Шоқан Шыңғысұлы Уәлиханов, шын есімі Мұхаммед Қанафия, 1835 жылы Қостанай облысы, Сарыкөл ауданы, Құсмұрын жерінде дүниеге келген. Ол XIX ғасырдың екінші жартысында Қазақстанда туған демократтық, ағартушылық мәдениеттің тұңғыш өкілдерінің бірі болды.</p>
+          <p>Ғалым 1865 жылы 10 сәуірде Көшентоған, Жетісу жерінде қайтыс болды. Қысқа ғұмырында ол Орта Азия халықтарының тарихы, тұрмысы, табиғаты және мәдениеті туралы аса құнды деректер қалдырды.</p>
+        </article>
+        <aside class="fact-panel reveal">
+          <h3>Негізгі бағыттары</h3>
+          <ul class="tag-list">
+            <li>Тарих</li>
+            <li>Этнография</li>
+            <li>Фольклор</li>
+            <li>География</li>
+            <li>Ағартушылық</li>
+            <li>Шығыстану</li>
+          </ul>
+          <div class="quote-card">
+            <span>Сайт идеясы</span>
+            <p>Көне күнделік стилі мен заманауи travel-blog форматын біріктіру.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section container video-section" id="video">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Бейне бөлім</p>
+        <h2>Шоқан туралы бейне</h2>
+        <p>Тақырыпқа кіріспе ретінде берілген YouTube бейнесін осы жерден көруге болады.</p>
+      </div>
+      <div class="video-card reveal">
+        <iframe src="https://www.youtube.com/watch?v=8PxLUR0EkmE" title="Шоқан Уәлиханов туралы бейне" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section class="section diary-section" id="diary">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Негізгі бөлім</p>
+          <h2>Ыстықкөл күнделігінің жазылу тарихы</h2>
+          <p>Бұл күнделік Шоқанның Қырғыз жеріне, әсіресе Ыстықкөл аймағына жасаған экспедициясы кезінде жазылған.</p>
+        </div>
+        <div class="diary-layout">
+          <div class="diary-paper reveal">
+            <h3>Күнделіктің пайда болуы</h3>
+            <p>1856 жылы Шоқан Ресейдің әскери-ғылыми экспедициясына қатысып, Жетісу мен Қырғыз өлкесін зерттеуге аттанды. Сол сапар кезінде ол алғаш рет Ыстықкөлге барып, жол бойындағы көрген-білгенін, табиғатты, халықтың тұрмысын және салт-дәстүрін күнделік ретінде жазып отырды.</p>
+            <p>XIX ғасырда Ресей империясы Орта Азия және Шығыс Түркістан өлкелеріндегі мемлекеттермен сауда және саяси қатынастар орнату мақсатында зерттеу экспедицияларын ұйымдастырды. Орыс Географиялық Қоғамының зерттеушілері осы өлкелерге жасаған саяхаттары туралы құнды еңбектер қалдырған.</p>
+            <p>Ресей империясының офицері, қазақ халқының ғалым ұлы Шоқан Уәлиханов жазған «Ыстықкөл күнделігі» сол кездегі ең бағалы ғылыми еңбектердің бірі болып саналады. Бұл еңбекте Тарбағатай, Жетісу, Жоңғар Алатауы және Қырғызстан жерлері туралы толық мәлімет берілген.</p>
+            <button class="btn small" id="listenDiary">Үзіндіні тыңдау</button>
+          </div>
+          <div class="reason-grid reveal">
+            <article>
+              <span>01</span>
+              <h3>Мәдениет</h3>
+              <p>Қырғыз халқының тарихы мен мәдениетін зерттеу.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>География</h3>
+              <p>Ыстықкөл өңірінің табиғаты мен жер бедерін тану.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Ғылым</h3>
+              <p>Экспедиция материалдарын ғылыми түрде жинақтау.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Байланыс</h3>
+              <p>Қазақ пен қырғыз халықтарының байланысын көрсету.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="route">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Интерактив карта</p>
+        <h2>Шоқан жүріп өткен жерлер</h2>
+        <p>Бұл бөлімде карта міндетті түрде көрінеді: негізгі карта PNG ретінде сақталған, үстіндегі интерактив SVG маршрут қозғалысты көрсетеді. Нүктені, күнді немесе басқару батырмаларын басқанда белгі жылжып, сол орынға байланысты фото ауысады.</p>
+      </div>
+
+      <div class="route-dashboard reveal pro-map-dashboard">
+        <div class="map-shell real-map-shell map-fixed-shell">
+          <div class="map-topbar">
+            <span>1856 жылғы экспедиция бағыты · көрінетін offline карта</span>
+            <div class="map-actions">
+              <button class="btn tiny" id="prevPoint">Алдыңғы</button>
+              <button class="btn tiny primary-mini" id="playRoute">▶ Ойнату</button>
+              <button class="btn tiny" id="nextPoint">Келесі</button>
+            </div>
+          </div>
+          <p class="map-layer-title primary-map-title">Карта енді сыртқы интернетке тәуелді емес: PNG + интерактив SVG бірге көрсетіледі</p>
+          <div class="guaranteed-map-wrap" aria-label="Шоқан Уәлиханов маршрутының көрінетін картасы">
+            <img class="route-map-base" src="assets/maps/shoqan-route-map.png" alt="Шоқан Уәлиханов экспедициясының көрінетін карта-суреті" />
+            <svg id="routeMap" class="map-fallback guaranteed-route-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-label="Шоқан Уәлиханов экспедициясының көрінетін маршруты">
+      <defs>
+        <linearGradient id="v4Land" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#fff7df"/>
+          <stop offset="0.48" stop-color="#e6d2a0"/>
+          <stop offset="1" stop-color="#c89b53"/>
+        </linearGradient>
+        <linearGradient id="v4Lake" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#9deaff"/>
+          <stop offset="1" stop-color="#0d6b67"/>
+        </linearGradient>
+        <filter id="v4Shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#1f2a2b" flood-opacity="0.24"/>
+        </filter>
+        <pattern id="v4Grid" width="48" height="48" patternUnits="userSpaceOnUse">
+          <path d="M48 0H0V48" fill="none" stroke="#0d6b67" stroke-opacity=".075" stroke-width="1.3"/>
+        </pattern>
+        <style><![CDATA[
+          .map-title{font-family:Georgia,serif;font-size:30px;font-weight:900;fill:#113b35}
+          .map-sub{font-family:Arial,sans-serif;font-size:14px;font-weight:800;fill:#5b4b31}
+          .map-label{font-family:Arial,sans-serif;font-size:15px;font-weight:900;fill:#102421}
+          .map-date{font-family:Arial,sans-serif;font-size:11px;font-weight:800;fill:#5b4b31}
+          .route-shadow{fill:none;stroke:rgba(0,0,0,.20);stroke-width:14;stroke-linecap:round;stroke-linejoin:round}
+          .route-line{fill:none;stroke:#b5442d;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:13 9}
+          .route-glow{fill:none;stroke:#f3d38b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+          .marker circle{fill:#c88c2b;stroke:white;stroke-width:4;filter:url(#v4Shadow)}
+          .marker.active-static circle{fill:#b5442d}
+          .point-number{font-family:Arial,sans-serif;font-size:9px;font-weight:900;fill:#fff}
+          .legend-text{font-family:Arial,sans-serif;font-size:12px;font-weight:800;fill:#102421}
+        ]]></style>
+      </defs>
+      <rect width="1000" height="560" rx="28" fill="url(#v4Land)"/>
+      <rect width="1000" height="560" rx="28" fill="url(#v4Grid)"/>
+      <path d="M0 115 C110 165 195 65 308 122 C435 185 482 72 610 125 C720 170 770 110 875 135 C932 150 965 145 1000 130 L1000 0 L0 0Z" fill="#58745f" opacity=".24"/>
+      <path d="M0 418 C130 350 198 452 318 393 C448 330 535 372 648 318 C785 252 895 309 1000 235 L1000 560 L0 560Z" fill="#617d56" opacity=".22"/>
+      <path d="M52 403 C115 365 158 423 210 388" fill="none" stroke="#77aec3" stroke-width="5" opacity=".62"/>
+      <path d="M310 354 C392 320 430 385 502 338" fill="none" stroke="#77aec3" stroke-width="4" opacity=".62"/>
+      <path d="M613 180 C685 110 822 110 910 168 C958 200 948 264 882 292 C788 333 650 299 607 244 C585 217 591 200 613 180Z" fill="url(#v4Lake)" filter="url(#v4Shadow)"/>
+      <text x="715" y="222" class="map-title" font-size="24">Ыстықкөл</text>
+      <path d="M83 251 L130 140 L177 253Z M190 268 L256 125 L324 270Z M356 284 L410 150 L475 286Z" fill="#4e6257" opacity=".55"/>
+      <path d="M109 205 L130 140 L153 205Z M228 188 L256 125 L285 188Z M382 220 L410 150 L441 220Z" fill="#fff8ea" opacity=".78"/>
+      <polyline class="route-shadow" points="90,160 380,330 440,305 500,275 545,286 590,312 630,295 675,270 700,252 725,238 760,220 805,230 842,257 830,305 785,335 735,350 610,365 460,410 430,390 340,358 265,315"/>
+      <polyline class="route-line" points="90,160 380,330 440,305 500,275 545,286 590,312 630,295 675,270 700,252 725,238 760,220 805,230 842,257 830,305 785,335 735,350 610,365 460,410 430,390 340,358 265,315"/>
+      <polyline class="route-glow" points="90,160 380,330 440,305 500,275 545,286 590,312 630,295 675,270 700,252 725,238 760,220 805,230 842,257 830,305 785,335 735,350 610,365 460,410 430,390 340,358 265,315"/>
+      
+        <g class="marker active-static" data-map-index="0" tabindex="0" role="button" aria-label="18 сәуір: Семей → Аягөз">
+          <circle cx="90" cy="160" r="9"></circle>
+          <text x="90" y="164" class="point-number" text-anchor="middle">1</text>
+          <text x="105" y="149" class="map-label" text-anchor="start">Семей</text><text x="105" y="167" class="map-date" text-anchor="start">18 сәуір</text>
+        </g>
+        <g class="marker" data-map-index="1" tabindex="0" role="button" aria-label="15 мамыр: Шелек өзені">
+          <circle cx="380" cy="330" r="9"></circle>
+          <text x="380" y="334" class="point-number" text-anchor="middle">2</text>
+          <text x="395" y="319" class="map-label" text-anchor="start">Шелек</text><text x="395" y="337" class="map-date" text-anchor="start">15 мамыр</text>
+        </g>
+        <g class="marker" data-map-index="2" tabindex="0" role="button" aria-label="16 мамыр: Сөгеті тауы">
+          <circle cx="440" cy="305" r="9"></circle>
+          <text x="440" y="309" class="point-number" text-anchor="middle">3</text>
+          
+        </g>
+        <g class="marker" data-map-index="3" tabindex="0" role="button" aria-label="17 мамыр: Торайғырдың теріскей жағы">
+          <circle cx="500" cy="275" r="9"></circle>
+          <text x="500" y="279" class="point-number" text-anchor="middle">4</text>
+          <text x="515" y="264" class="map-label" text-anchor="start">Торайғыр</text><text x="515" y="282" class="map-date" text-anchor="start">17 мамыр</text>
+        </g>
+        <g class="marker" data-map-index="4" tabindex="0" role="button" aria-label="18 мамыр: Сұлу Қарашоқы шатқалы">
+          <circle cx="545" cy="286" r="9"></circle>
+          <text x="545" y="290" class="point-number" text-anchor="middle">5</text>
+          
+        </g>
+        <g class="marker" data-map-index="5" tabindex="0" role="button" aria-label="19 мамыр: Бірінші Меркі өзені">
+          <circle cx="590" cy="312" r="9"></circle>
+          <text x="590" y="316" class="point-number" text-anchor="middle">6</text>
+          
+        </g>
+        <g class="marker" data-map-index="6" tabindex="0" role="button" aria-label="20 мамыр: Шырғанақ өзені">
+          <circle cx="630" cy="295" r="9"></circle>
+          <text x="630" y="299" class="point-number" text-anchor="middle">7</text>
+          
+        </g>
+        <g class="marker" data-map-index="7" tabindex="0" role="button" aria-label="21 мамыр: Қарқара өзені">
+          <circle cx="675" cy="270" r="9"></circle>
+          <text x="675" y="274" class="point-number" text-anchor="middle">8</text>
+          <text x="690" y="259" class="map-label" text-anchor="start">Қарқара</text><text x="690" y="277" class="map-date" text-anchor="start">21 мамыр</text>
+        </g>
+        <g class="marker" data-map-index="8" tabindex="0" role="button" aria-label="22 мамыр: Қарқарадағы екінші түнемелік">
+          <circle cx="700" cy="252" r="9"></circle>
+          <text x="700" y="256" class="point-number" text-anchor="middle">9</text>
+          
+        </g>
+        <g class="marker" data-map-index="9" tabindex="0" role="button" aria-label="23 мамыр: Жиделі – Бұғу">
+          <circle cx="725" cy="238" r="9"></circle>
+          <text x="725" y="242" class="point-number" text-anchor="middle">10</text>
+          
+        </g>
+        <g class="marker" data-map-index="10" tabindex="0" role="button" aria-label="25 мамыр: Санташ асуы">
+          <circle cx="760" cy="220" r="9"></circle>
+          <text x="760" y="224" class="point-number" text-anchor="middle">11</text>
+          <text x="775" y="209" class="map-label" text-anchor="start">Санташ</text><text x="775" y="227" class="map-date" text-anchor="start">25 мамыр</text>
+        </g>
+        <g class="marker" data-map-index="11" tabindex="0" role="button" aria-label="28 мамыр: Түп өзені, Кеңсай">
+          <circle cx="805" cy="230" r="9"></circle>
+          <text x="805" y="234" class="point-number" text-anchor="middle">12</text>
+          
+        </g>
+        <g class="marker" data-map-index="12" tabindex="0" role="button" aria-label="29 мамыр: Қарабатпақ өзені">
+          <circle cx="842" cy="257" r="9"></circle>
+          <text x="842" y="261" class="point-number" text-anchor="middle">13</text>
+          <text x="712" y="246" class="map-label" text-anchor="start">Қарабатпақ</text><text x="712" y="264" class="map-date" text-anchor="start">29 мамыр</text>
+        </g>
+        <g class="marker" data-map-index="13" tabindex="0" role="button" aria-label="2 маусым: Тұлпартас шатқалы">
+          <circle cx="830" cy="305" r="9"></circle>
+          <text x="830" y="309" class="point-number" text-anchor="middle">14</text>
+          <text x="700" y="294" class="map-label" text-anchor="start">Тұлпартас</text><text x="700" y="312" class="map-date" text-anchor="start">2 маусым</text>
+        </g>
+        <g class="marker" data-map-index="14" tabindex="0" role="button" aria-label="3 маусым: Емен етегі">
+          <circle cx="785" cy="335" r="9"></circle>
+          <text x="785" y="339" class="point-number" text-anchor="middle">15</text>
+          
+        </g>
+        <g class="marker" data-map-index="15" tabindex="0" role="button" aria-label="4 маусым: Өрікті бұлақтары">
+          <circle cx="735" cy="350" r="9"></circle>
+          <text x="735" y="354" class="point-number" text-anchor="middle">16</text>
+          
+        </g>
+        <g class="marker" data-map-index="16" tabindex="0" role="button" aria-label="13 маусым: Жалаңаш үстірті">
+          <circle cx="610" cy="365" r="9"></circle>
+          <text x="610" y="369" class="point-number" text-anchor="middle">17</text>
+          <text x="625" y="354" class="map-label" text-anchor="start">Жалаңаш</text><text x="625" y="372" class="map-date" text-anchor="start">13 маусым</text>
+        </g>
+        <g class="marker" data-map-index="17" tabindex="0" role="button" aria-label="15 маусым: Верный бекінісі">
+          <circle cx="460" cy="410" r="9"></circle>
+          <text x="460" y="414" class="point-number" text-anchor="middle">18</text>
+          <text x="475" y="399" class="map-label" text-anchor="start">Верный</text><text x="475" y="417" class="map-date" text-anchor="start">15 маусым</text>
+        </g>
+        <g class="marker" data-map-index="18" tabindex="0" role="button" aria-label="16 маусым: Кері шығу">
+          <circle cx="430" cy="390" r="9"></circle>
+          <text x="430" y="394" class="point-number" text-anchor="middle">19</text>
+          
+        </g>
+        <g class="marker" data-map-index="19" tabindex="0" role="button" aria-label="18 маусым: Шеңгелді">
+          <circle cx="340" cy="358" r="9"></circle>
+          <text x="340" y="362" class="point-number" text-anchor="middle">20</text>
+          
+        </g>
+        <g class="marker" data-map-index="20" tabindex="0" role="button" aria-label="23 маусым: Тезек ауылы">
+          <circle cx="265" cy="315" r="9"></circle>
+          <text x="265" y="319" class="point-number" text-anchor="middle">21</text>
+          <text x="280" y="304" class="map-label" text-anchor="start">Тезек</text><text x="280" y="322" class="map-date" text-anchor="start">23 маусым</text>
+        </g>
+      <g transform="translate(825 455)">
+        <rect x="0" y="0" width="145" height="78" rx="18" fill="rgba(255,255,255,.72)" stroke="rgba(16,36,33,.16)"/>
+        <circle cx="22" cy="24" r="8" fill="#c88c2b" stroke="#fff" stroke-width="3"/>
+        <text x="39" y="29" class="legend-text">Тоқтау орны</text>
+        <path d="M13 53H48" stroke="#b5442d" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 7"/>
+        <text x="58" y="58" class="legend-text">Маршрут</text>
+      </g>
+      <g transform="translate(65 55)">
+        <text class="map-title">Шоқан жүріп өткен жерлер</text>
+        <text y="32" class="map-sub">1856 жыл · Ыстықкөл экспедициясының көрінетін маршруты</text>
+      </g>
+      <g transform="translate(910 75)" filter="url(#v4Shadow)">
+        <circle r="40" fill="#fff8e9"/>
+        <path d="M0 -28 L12 13 L0 3 L-12 13Z" fill="#0d6b67"/>
+        <text x="0" y="58" text-anchor="middle" class="legend-text">N</text>
+      </g>
+    </svg>
+          </div>
+          <div class="map-slider-wrap">
+            <span>Бастау</span>
+            <input id="routeSlider" type="range" min="0" max="20" value="0" aria-label="Маршрут датасын таңдау" />
+            <span>Аяқталу</span>
+          </div>
+        </div>
+        <aside class="route-info pro-route-info" id="routeInfo" aria-live="polite">
+          <span class="route-kicker">Таңдалған орын</span>
+          <h3 id="routeTitle">Семей → Аягөз</h3>
+          <p id="routeDate">18 сәуір</p>
+          <figure class="route-photo-card">
+            <img id="routePhoto" src="assets/route/01-semey-ayagoz.svg" alt="Маршрут орнының фотосы" loading="lazy" />
+            <figcaption id="routePhotoCaption">Әр датаға сәйкес визуал автоматты түрде ауысады.</figcaption>
+          </figure>
+          <p id="routeDescription">Сапар Семейден Аягөзге қарай басталды.</p>
+          <div class="route-progress">
+            <span id="routeCounter">1 / 21</span>
+            <div><i id="routeBar"></i></div>
+          </div>
+          <p class="map-note">Карта бос болып қалмауы үшін негізгі карта PNG ретінде, ал қозғалыс SVG ретінде жасалды. Сондықтан ол интернетсіз де бірден көрінеді.</p>
+        </aside>
+      </div>
+
+      <div class="route-timeline reveal" id="routeTimeline"></div>
+    </section>
+
+    <section class="section container split-section" id="kyrgyz">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Этнографиялық жазбалар</p>
+        <h2>Шоқан Уәлихановтың қырғыздар жайлы мәліметтері</h2>
+        <p>Шоқан күнделігінде қырғыз халқының тұрмысын, киімін, жоқтау салтын және жерлеу дәстүрін бақылаушы ғалым ретінде сипаттаған.</p>
+      </div>
+      <div class="culture-grid">
+        <article class="culture-card reveal">
+          <img src="assets/img/old-map.svg" alt="Көне карта стиліндегі иллюстрация" />
+          <h3>Мола туралы байқауы</h3>
+          <p>Қырғыздардың моласы қазақтардікі сияқты сәнді емес деп сипатталады: кішкентай үйінді, шағын тастар және жерге қадалған таяқ адамның соңғы мекені екенін білдіріп тұрған.</p>
+        </article>
+        <article class="culture-card reveal">
+          <img src="assets/img/kyrgyz-culture.png" alt="Қырғыз мәдениеті туралы иллюстрация" />
+          <h3>Жоқтау салты</h3>
+          <p>Қырғыздарда да әйел күйеуінің қазасын бір жыл бойы дауыстап жоқтауы керек болған. Бұл дәстүр мұсылмандық ортадағы аза тұту рәсімімен байланысты көрсетіледі.</p>
+        </article>
+        <article class="culture-card reveal wide">
+          <img src="assets/img/ashekei.png" alt="Ыстықкөл мен тау көрінісі" />
+          <div>
+            <h3>Әйелдер киімі мен әшекейі</h3>
+            <p>Қырғыз әйелдері жағасы жоқ ақ көйлек киіп, кеуде ойығын қызыл жібекпен әдіптеген. Үстіне ерлердікіне ұқсас ала шапан киген, бірақ көк түсті қаза белгісі ретінде кимеген. Тұрмысқа шыққан әйелдің қыздан айырмашылығы бас киімі мен шаш өруінде болған.</p>
+            <p>Әйелдер екі ақ орамал байлаған, ал қыздар үкісі бар ақ тақия киген. Шаштың ұзындығы сұлулық белгісі саналып, бұрымдарға тиын, кілт, зәңкір және түрлі әшекей тағылған.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section comparison-section" id="comparison">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Бұрын және қазір</p>
+          <h2>Шоқан көзімен Ыстықкөл</h2>
+          <p>Бұл бөлім күнделік атмосферасын қазіргі визуалды форматпен салыстырып көрсетеді.</p>
+        </div>
+        <div class="compare-grid reveal">
+          <article>
+            <span>1856</span>
+            <h3>Зерттеушінің дәптері</h3>
+            <p>Шоқан табиғатты, өзендерді, асуларды, халықтың киімін, тұрмысын және тарихи ескерткіштерді қолмен жазып, кейбірінің суретін өзі салған.</p>
+          </article>
+          <article>
+            <span>Қазір</span>
+            <h3>Digital diary</h3>
+            <p>Қазіргі форматта бұл деректер интерактив карта, бейне, қысқа пост, викторина және визуалды галерея арқылы ұсынылады.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="backpack">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Ерекше фишка</p>
+        <h2>Шоқанның рюкзагы</h2>
+        <p>Заттарды басып көріңіз: әрқайсысы экспедициядағы бір ғылыми әрекетті түсіндіреді.</p>
+      </div>
+      <div class="backpack-grid reveal">
+        <button class="backpack-item" data-title="Компас" data-text="Компас бағытты анықтауға, асулар мен өзендер арасындағы қозғалысты белгілеуге көмектеседі.">🧭<span>Компас</span></button>
+        <button class="backpack-item" data-title="Дәптер" data-text="Дәптерге Шоқан жол бойындағы табиғатты, тұрмысты, салт-дәстүрді және ғылыми байқауларын жазып отырған.">📔<span>Дәптер</span></button>
+        <button class="backpack-item" data-title="Карта" data-text="Карта экспедиция бағытын жүйелеуге, жүріп өткен жерлерді есте сақтауға мүмкіндік береді.">🗺️<span>Карта</span></button>
+        <button class="backpack-item" data-title="Қалам" data-text="Қалам арқылы ғалым мәтін жазып қана қоймай, тарихи ескерткіштердің суреттерін де салған.">✒️<span>Қалам</span></button>
+      </div>
+      <div class="modal" id="itemModal" aria-hidden="true">
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+          <button class="modal-close" id="modalClose" aria-label="Жабу">×</button>
+          <h3 id="modalTitle">Зат</h3>
+          <p id="modalText">Ақпарат</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section instagram-section" id="digital">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Фото күнделік</p>
+          <h2>Егер Шоқан бүгін Instagram жүргізсе...</h2>
+          
+        </div>
+        <div class="phone-layout reveal instagram-upgrade">
+          <div class="phone-frame insta-phone">
+            <div class="phone-header insta-top">
+              <div>
+                <strong>@shoqantanu</strong>
+                <span>ғылыми travel-blog</span>
+              </div>
+              <button class="follow-btn">Follow</button>
+            </div>
+            <div class="story-row" id="storyRow"></div>
+            <div class="insta-carousel" aria-label="Шоқантану фото carousel">
+              <button class="carousel-btn prev" id="instaPrev" aria-label="Алдыңғы фото">‹</button>
+              <div class="insta-track" id="instaTrack"></div>
+              <button class="carousel-btn next" id="instaNext" aria-label="Келесі фото">›</button>
+            </div>
+            <div class="insta-dots" id="instaDots"></div>
+            <div class="insta-caption">
+              <div class="insta-actions">♡  💬  ↗  <span>🔖</span></div>
+              <p id="instaCaptionText"><strong>@shoqantanu</strong> Фото күнделік жүктелуде...</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="quiz">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Білімді тексеру</p>
+        <h2>«Шоқанды қаншалықты білесің?» викторинасы</h2>
+        <p>Дұрыс жауапты таңдаңыз. Нәтиже бірден көрсетіледі.</p>
+      </div>
+      <div class="quiz-card reveal">
+        <div id="quizBox"></div>
+        <button class="btn primary" id="checkQuiz">Жауапты тексеру</button>
+        <p class="quiz-result" id="quizResult"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top"><span class="brand-mark">Ш</span><span class="brand-text">Шоқантану</span></a>
+        <p>Шоқан Уәлихановтың ғылыми мұрасын заманауи форматта танытатын интерактивті сайт.</p>
+      </div>
+      <div>
+        <h3>Қорытынды</h3>
+        <p>«Ыстықкөл күнделігі» — табиғат, халық тұрмысы, салт-дәстүр және тарихи ескерткіштер туралы құнды дерек. Бұл сайт сол еңбекті түсінікті, көркем және интерактив түрде көрсетуге арналған.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Жоғары көтерілу">↑</button>
+  <script src="js/app.js"></script>
+</body>
+</html>

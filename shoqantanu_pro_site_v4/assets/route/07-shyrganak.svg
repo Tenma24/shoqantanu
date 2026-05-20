@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="20 мамыр — Шырғанақ өзені">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dff8ff"/><stop offset="0.52" stop-color="#f9efd3"/><stop offset="1" stop-color="#d7bd7a"/></linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0d6b67"/><stop offset="1" stop-color="#c68a2b"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#0b1f1e" flood-opacity=".25"/></filter>
+    <pattern id="orn" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M32 6 C50 18 50 46 32 58 C14 46 14 18 32 6Z" fill="none" stroke="#0d6b67" stroke-opacity=".16" stroke-width="4"/></pattern>
+  </defs>
+  <rect width="1200" height="760" fill="url(#sky)"/>
+  <rect width="1200" height="760" fill="url(#orn)" opacity=".5"/>
+  <circle cx="960" cy="140" r="84" fill="#ffe8a3" opacity=".9"/>
+  <path d="M0 390 C130 260 230 338 355 260 C470 186 590 250 696 176 C805 100 930 194 1200 86 L1200 760 L0 760Z" fill="#789373" opacity=".58"/>
+  <path d="M0 478 C145 360 260 470 405 366 C580 242 696 402 842 290 C984 181 1048 338 1200 255 L1200 760 L0 760Z" fill="#0d6b67" opacity=".56"/>
+  <path d="M0 562 C180 475 352 600 512 510 C676 420 790 555 952 475 C1045 430 1128 440 1200 405 L1200 760 L0 760Z" fill="#d2af62" opacity=".75"/>
+  <path d="M72 640 C250 550 428 686 606 590 C762 506 905 630 1128 518" fill="none" stroke="#8b5737" stroke-width="18" stroke-linecap="round" stroke-dasharray="44 32" opacity=".92"/>
+  <g filter="url(#shadow)">
+    <rect x="76" y="80" width="510" height="210" rx="38" fill="#fffaf0" opacity=".92"/>
+    <text x="122" y="155" font-family="Georgia, serif" font-size="42" font-weight="800" fill="#0b4f4b">20 мамыр</text>
+    <text x="122" y="214" font-family="Arial, sans-serif" font-size="56" font-weight="900" fill="#123434">Шырғанақ өзені</text>
+    <text x="122" y="258" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#5f5040">Түнемелік орны</text>
+  </g>
+  <g transform="translate(940 542)" filter="url(#shadow)">
+    <circle r="74" fill="#fffaf0" opacity=".96"/>
+    <path d="M0 -52 L22 18 L0 2 L-22 18Z" fill="#0d6b67"/>
+    <text x="0" y="95" text-anchor="middle" font-family="Arial" font-size="24" font-weight="800" fill="#0d6b67">Шоқан жолы</text>
+  </g>
+</svg>

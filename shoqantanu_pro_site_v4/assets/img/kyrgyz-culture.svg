@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Қырғыз мәдениеті</title>
+  <desc id="desc">Киім, ою-өрнек және этнография туралы иллюстрация.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fffaf0"/><stop offset="1" stop-color="#e9bf72"/></linearGradient>
+    <pattern id="orn" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M40 8c14 20 14 44 0 64C26 52 26 28 40 8zm0 0c-20 14-20 58 0 72" fill="none" stroke="#b55335" stroke-width="4" opacity=".3"/></pattern>
+  </defs>
+  <rect width="900" height="520" rx="36" fill="url(#bg)"/>
+  <rect width="900" height="520" rx="36" fill="url(#orn)"/>
+  <circle cx="450" cy="184" r="86" fill="#c98c59"/>
+  <path d="M354 178c18-72 68-111 151-100 56 8 95 46 107 103-74-32-158-32-258-3z" fill="#fffaf0"/>
+  <path d="M318 500c20-137 75-210 132-210s112 73 132 210z" fill="#0d6b67"/>
+  <path d="M372 306c50 46 105 46 156 0l53 194H319z" fill="#fffaf0" opacity=".86"/>
+  <path d="M338 376h224" stroke="#b55335" stroke-width="14" stroke-linecap="round"/>
+  <path d="M390 224c20 12 42 12 62 0M474 224c22 12 44 12 66 0" stroke="#3d241b" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M398 280c35 20 70 20 105 0" stroke="#6b3a25" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <text x="450" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#083e42" font-weight="700">Этнографиялық жазба</text>
+</svg>

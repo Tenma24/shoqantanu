@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 920" role="img" aria-labelledby="title desc">
+  <title id="title">Шоқан Уәлиханов портреті</title>
+  <desc id="desc">Көне қағаз фонында берілген стильденген портрет.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f8e6bd"/><stop offset="1" stop-color="#0d6b67"/></linearGradient>
+    <radialGradient id="sun" cx="52%" cy="20%" r="70%"><stop offset="0" stop-color="#ffe6a2"/><stop offset="1" stop-color="#c68a2b" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#1f2a2b" flood-opacity=".24"/></filter>
+  </defs>
+  <rect width="760" height="920" rx="44" fill="url(#bg)"/>
+  <rect x="34" y="34" width="692" height="852" rx="34" fill="#fffaf0" opacity=".78"/>
+  <circle cx="380" cy="210" r="250" fill="url(#sun)"/>
+  <path d="M80 650c120-92 254-126 400-88 94 25 160 78 205 159v165H80z" fill="#0b3f43" opacity=".93" filter="url(#shadow)"/>
+  <path d="M235 353c-18-72 18-176 143-184 135-9 186 92 172 184-10 66-43 128-89 166-28 23-61 35-93 35-31 0-62-12-88-35-44-38-72-95-45-166z" fill="#c98c59"/>
+  <path d="M244 344c18-100 73-148 161-146 93 2 143 61 146 149-57-47-104-67-155-67-54 0-101 24-152 64z" fill="#1f2a2b"/>
+  <path d="M284 409c22 14 46 14 68 0M410 409c25 14 50 13 74-2" stroke="#492b20" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M365 426c-9 35-19 63-38 88 32 17 65 16 95 0-18-25-28-53-37-88" fill="#b77a4e" opacity=".85"/>
+  <path d="M332 551c43 20 86 19 127-3" stroke="#663722" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M250 610c92 68 177 71 260 0 30 56 54 118 72 186H178c18-68 42-130 72-186z" fill="#fffaf0"/>
+  <path d="M184 694c55-74 122-120 200-135 78 15 145 61 200 135l-24 192H208z" fill="#0d6b67"/>
+  <path d="M302 664h158l-79 92z" fill="#f7edd8"/>
+  <path d="M173 733c116 52 247 52 414 0" stroke="#c68a2b" stroke-width="18" stroke-linecap="round" opacity=".86"/>
+  <text x="380" y="98" text-anchor="middle" font-family="Georgia, serif" font-size="52" fill="#083e42" font-weight="700">Шоқантану</text>
+  <text x="380" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#fffaf0" opacity=".86">ғылым • сапар • күнделік</text>
+</svg>

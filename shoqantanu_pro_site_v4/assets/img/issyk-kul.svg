@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ыстықкөл көрінісі</title>
+  <desc id="desc">Көл, тау және күнделік атмосферасы.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7ed5ec"/><stop offset="1" stop-color="#fff1c3"/></linearGradient>
+    <linearGradient id="water" x1="0" x2="1"><stop offset="0" stop-color="#0f8aa5"/><stop offset="1" stop-color="#82d9ef"/></linearGradient>
+  </defs>
+  <rect width="900" height="520" rx="36" fill="url(#sky)"/>
+  <circle cx="735" cy="90" r="55" fill="#ffe5a0"/>
+  <path d="M0 245l105-118 84 93 91-136 116 155 91-98 87 104 96-143 135 143 95-84v359H0z" fill="#476a64"/>
+  <path d="M73 245l32-118 34 91 50-134 56 153 35-88 116 90 91-98 87 104 96-143 77 140 58-81 95 84v48H0z" fill="#fffaf0" opacity=".74"/>
+  <path d="M0 285c132-37 215-30 318 1s202 34 329 0 190-28 253 2v232H0z" fill="url(#water)"/>
+  <path d="M40 355c140-25 268 25 400 0s255-30 420 10" stroke="#fffaf0" stroke-width="8" stroke-linecap="round" opacity=".66" fill="none"/>
+  <path d="M64 413c98-13 210 17 305 0s201-32 455 12" stroke="#fffaf0" stroke-width="5" stroke-linecap="round" opacity=".45" fill="none"/>
+  <text x="58" y="82" font-family="Georgia, serif" font-size="46" fill="#083e42" font-weight="700">Ыстықкөл</text>
+</svg>
